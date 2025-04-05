@@ -69,7 +69,7 @@ public class Main {
                     System.out.print("Ingrese la constante aditiva (c): ");
                     int c = scanner.nextInt();
 
-                    System.out.print("Ingrese el módulo (m): ");
+                    System.out.print("Ingrese el valor del módulo (m): ");
                     int m = scanner.nextInt();
 
                     System.out.print("¿Cuántos números desea generar?: ");
@@ -110,8 +110,7 @@ public class Main {
                     break;
             }
 
-        } while (opcion != 0);
-
+            } while (opcion != 0);
         scanner.close();
     }
 }
